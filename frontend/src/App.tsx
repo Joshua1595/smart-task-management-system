@@ -1,5 +1,7 @@
+import AppRouter from "./routes/AppRouter";
+
 function App() {
-  return <h1>Smart Task Management System</h1>;
+  return <AppRouter />;
 }
 
 export default App;
